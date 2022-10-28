@@ -2,10 +2,11 @@ import path from "path"
 import express from "express"
 import { Server } from "socket.io"
 
+const PORT = process.env.PORT || 9020
 const app = express()
 app.use(express.static(path.join(process.cwd(), "public")))
 
-const server = app.listen(9020, console.log(9020))
+const server = app.listen(PORT, console.log(PORT))
 
 const io = new Server(server)
 

@@ -1,0 +1,28 @@
+
+.container {
+    width: 800px;
+
+}
+.input{
+    width: 800px;
+    margin-bottom: 20px;
+}
+
+.you_chat {
+    border: 1px solid red;
+    background-color: aqua;
+    color: black;
+    width: fit-content;
+    padding: 10px 5px;
+    border-radius: 5px;
+    margin-left: auto;
+}
+
+.user_chat {
+    border: 1px solid blue;
+    background-color: darkslategrey;
+    color: white;
+    width: fit-content;
+    padding: 10px 5px;
+    border-radius: 5px;
+}
